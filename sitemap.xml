@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/guestbook/index.html</loc>
+    
+    <lastmod>2018-02-03T12:30:36.702Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/02/02/Markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</loc>
     
     <lastmod>2018-02-02T15:03:42.866Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://yoursite.com/404.html</loc>
     
     <lastmod>2018-02-01T15:21:33.507Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/guestbook/index.html</loc>
-    
-    <lastmod>2018-02-01T09:20:31.839Z</lastmod>
     
   </url>
   
