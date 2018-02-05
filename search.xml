@@ -3,8 +3,135 @@
   
     
     <entry>
+      <title><![CDATA[IntelliJ IDEA常用快捷键]]></title>
+      <url>/2018/01/05/IntelliJ-IDEA%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>idea默认的快捷键和各大主流输入法有冲突, 建议修改输入法快捷键。</li>
+<li>从eclipse过来的同学可能不习惯，可以导入Google代码规范，从<a href="http://example.com/" title="Google Style Guide" target="_blank" rel="noopener">Github仓库</a> 下载，但是不建议使用，既然都选择了idea，就要学会适应它。</li>
+</ul>
+<h5 id="1-Ctrl"><a href="#1-Ctrl" class="headerlink" title="1. Ctrl+?"></a>1. Ctrl+?</h5><ul>
+<li>Ctrl + Y 删除行</li>
+<li>Ctrl + X 剪切行</li>
+<li>Ctrl + N 查找类</li>
+<li>Ctrl + R 替换</li>
+<li>Ctrl + O 选择可覆盖/继承的方法</li>
+<li>Ctrl + F 当前代码（文件）中查找</li>
+<li>Ctrl + D 复制行或是块</li>
+<li>Ctrl + P 方法参数提示显示</li>
+<li>Ctrl + Q 鼠标放在变量/类名/方法名等上面（也可以在提示补充的时候按），显示文档内容，同类似的功能还有一个Ctrl + Shift + I </li>
+<li>Ctrl + B 快速打开光标处的类或方法（对于前端支持很好,比如可以直接通过class的name定位到css的文件位置）(等同于ctrl+光标指向)</li>
+<li>Ctrl + E 最近打开的文件</li>
+<li>Ctrl + U 前往父类的方法/父类</li>
+<li>Ctrl + K VCS提交项目</li>
+<li>Ctrl + T VCS更新项目</li>
+<li>Ctrl + G 跳到指定行</li>
+<li>Ctrl + H 显示类层次图</li>
+<li>Ctrl - F12 可以直接键入字母，快速定位到某个方法<br>Ctrl + home/end 跳到文件头文件尾<br>Ctrl + [ 或 ] 移动光标到块的初/末括号地方<br>Ctrl + / 或 Ctrl+Shift+/ 注释（// 或者/…/ ）<br>Ctrl + 小键盘+/- 折叠/展开代码<br>Ctrl + 鼠标单击编辑窗口的文件标题 弹出该文件路径,可以通过这个打开文件所在地方(相当于Ctrl+alt+F12)<h5 id="2-Alt"><a href="#2-Alt" class="headerlink" title="2. Alt+?"></a>2. Alt+?</h5></li>
+<li>Alt + 1 打开/关闭project选项卡</li>
+<li>Alt + F2 多个浏览器预览</li>
+<li>Alt + F3 选中文本，逐个往下查找相同文本，并高亮显示。</li>
+<li>Alt + F7 查看该方法/变量/类被调用的地方</li>
+<li>Alt + F8 在debug的状态下，选中某些变量或是对象，按此快捷键弹出可输入变量、方法的调试框，指定查看该内容的debug情况</li>
+<li>Alt + Insert 创建文件，以及生成代码(如get,set方法,构造函数等)</li>
+<li>Alt + 方向键 左 或 方向键 右 切换当前打开的文件视图</li>
+<li>Alt + 方向键 上 或 方向键 下 在方法间快速移动定位</li>
+<li>Alt + 鼠标左键单击不放,拖动 可以直接方块区域选择</li>
+<li>Alt + 回车 快速修复(可以用来导入单个包)<h5 id="3-Shift"><a href="#3-Shift" class="headerlink" title="3. Shift+?"></a>3. Shift+?</h5></li>
+<li>Shift + F6 重构：重新命名</li>
+<li>Shift + F10 Run(运行)当前程序，相当于点击run按钮</li>
+<li>Shift + F9 debug当前程序，相当于点击debug按钮</li>
+<li>Shift + end 选中从光标到end处</li>
+<li>Shift + home 选中从光标到home处</li>
+<li>Shift + Enter 光标所在行下空出一行，光标跳下</li>
+<li>Shift + 单击 可以关闭文件</li>
+<li>Shift + 滚轮 横向滚动轴滚动<h5 id="4-Ctrl-Alt"><a href="#4-Ctrl-Alt" class="headerlink" title="4. Ctrl+Alt+?"></a>4. Ctrl+Alt+?</h5></li>
+<li>Ctrl + Alt + A 把新创建的文件加入SVN管理</li>
+<li>Ctrl + Alt + O 优化导入的类和包</li>
+<li>Ctrl + Alt + L 格式化代码</li>
+<li>Ctrl + Alt + I 选中部分自动缩进行（有点类似格式化，但是只是整理行格式而已）</li>
+<li>Ctrl + Alt + T 选中的地方代码环绕提示</li>
+<li>Ctrl + Alt + B 跳到具体的实现方法，查找接口/抽象方法的具体实现很好用(相反行为的快捷键是- Ctrl+B)</li>
+<li>Ctrl + Alt + V 快速引进一个变量</li>
+<li>Ctrl + Alt + F7 寻找被该类或是变量被使用的地方，用弹出框的方式找出来，跟Alt+F7效果一样，但是因为是弹出框，选中了一个位置就会消失。</li>
+<li>Ctrl + Alt + Enter 光标所在行上空出一行，光标跳上</li>
+<li>Ctrl + Alt + home 弹出跟当前文件有关联的文件目录(比如jsp里面有导入几个js和css,这些文件就是关联文件)</li>
+<li>Ctrl + Alt + 方向左/右 退回/前进到上一个操作的地方</li>
+<li>Ctrl + Alt + 空格 类名或接口名提示(最常用的,一般敲入字母都会提示,但是如果你不小心esc了,可以再按这个出来)<h5 id="5-Ctrl-Shift"><a href="#5-Ctrl-Shift" class="headerlink" title="5.  Ctrl+Shift+?"></a>5.  Ctrl+Shift+?</h5></li>
+<li>Ctrl + Shift + F 查找整个项目相关关键字文件，通过某个词，指定要搜索的文件类型，目录</li>
+<li>Ctrl + Shift + N通过文件名查找指定文件</li>
+<li>Ctrl + Shift + U // 大/小写都是这个快捷键</li>
+<li>Ctrl + Shift + B 在变量上按此快捷键，直接跳转到变量类型类中</li>
+<li>Ctrl + Shift + I 在方法名或是类名下(或是代码补充提示的时候也可以按，也可以在图片地址上按)，按此快捷键显示该方法或是类的源码结构，无需点击进去查看源码（当然了，必须是你已经导入源码的情况下才看得到） 类似- Ctrl+Q</li>
+<li>Ctrl + Shift + R 搜索指定范围文件，替换文字</li>
+<li>Ctrl + Shift + F12 编辑器全屏</li>
+<li>Ctrl + Shift + F7 高亮显示所有该选中文本，按Esc高亮消失。(也可以在throws或是try..catch上面按此快捷键，比如在一个方法的throws单词上按这个快捷键，则会把哪些内部方法会抛异常的都显出来)</li>
+<li>Ctrl + Shift + Enter 行末自动添加 ; 结束代码 ，如果是输入if，按这个快捷键会自动帮你补充(){}</li>
+<li>Ctrl + Shift + 小键盘 + 或 - 折叠/展开所有代码<h5 id="6-Debug"><a href="#6-Debug" class="headerlink" title="6. Debug"></a>6. Debug</h5></li>
+<li>F7 Step Into 进入到代码</li>
+<li>F8 Step Over 跳到下一步</li>
+<li>F9 resume programe 恢复程序，下一个断点</li>
+<li>Shift+F8 Step Out 跳出函数</li>
+<li>Alt+shift+F7 Force Step Into 强制进入代码</li>
+<li>Alt+F10 show execution point 显示执行断点</li>
+<li>Alt+F9 Run To Cursor 运行到光标处</li>
+<li>Alt+F8<br><br><br><br><br><br><br><br><p style="text-align:right">部分内容来源于网络</p><br><p style="text-align:right">苏州</p>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 技巧与技巧 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> idea </tag>
+            
+            <tag> 生产力 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Windows常用快捷键]]></title>
+      <url>/2018/01/05/Windows%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      <content type="html"><![CDATA[<h4 id="1-文件资源管理器键盘快捷方式"><a href="#1-文件资源管理器键盘快捷方式" class="headerlink" title="1. 文件资源管理器键盘快捷方式"></a>1. 文件资源管理器键盘快捷方式</h4><p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/4405443.jpg" alt="image"></p>
+<p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/37883290.jpg" alt="image"></p>
+<h4 id="2-复制、粘贴及其他常规的键盘快捷方式"><a href="#2-复制、粘贴及其他常规的键盘快捷方式" class="headerlink" title="2. 复制、粘贴及其他常规的键盘快捷方式"></a>2. 复制、粘贴及其他常规的键盘快捷方式</h4><p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/61305142.jpg" alt="image"></p>
+<p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/71345975.jpg" alt="image"></p>
+<h4 id="3-对话框键盘快捷方式"><a href="#3-对话框键盘快捷方式" class="headerlink" title="3. 对话框键盘快捷方式"></a>3. 对话框键盘快捷方式</h4><p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/1922395.jpg" alt="image"></p>
+<h4 id="4-任务栏键盘快捷方式"><a href="#4-任务栏键盘快捷方式" class="headerlink" title="4. 任务栏键盘快捷方式"></a>4. 任务栏键盘快捷方式</h4><p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/25405154.jpg" alt="image"></p>
+<h4 id="5-虚拟桌面的键盘快捷方式"><a href="#5-虚拟桌面的键盘快捷方式" class="headerlink" title="5. 虚拟桌面的键盘快捷方式"></a>5. 虚拟桌面的键盘快捷方式</h4><p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/16477599.jpg" alt="image"></p>
+<h4 id="6-windows徽标相关快捷方式"><a href="#6-windows徽标相关快捷方式" class="headerlink" title="6. windows徽标相关快捷方式"></a>6. windows徽标相关快捷方式</h4><p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/14062717.jpg" alt="image"></p>
+<p><img src="http://p2eetui5w.bkt.clouddn.com/18-2-5/32696825.jpg" alt="image"></p>
+<hr>
+<p>如果有什么错误或遗漏，欢迎给我留言，谢谢。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技巧与技巧 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 生产力 </tag>
+            
+            <tag> windows </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Markdown基础语法]]></title>
-      <url>/2018/02/02/Markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+      <url>/2018/01/02/Markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
       <content type="html"><![CDATA[<h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h2><p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，更棒的是，它还可以</p>
 <h3 id="1-制作一份待办事宜-Todo-列表"><a href="#1-制作一份待办事宜-Todo-列表" class="headerlink" title="1. 制作一份待办事宜 Todo 列表"></a>1. 制作一份待办事宜 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表" target="_blank" rel="noopener">Todo 列表</a></h3><ul>
 <li style="list-style: none"><input type="checkbox"> 支持以 PDF 格式导出文稿</li>
@@ -49,16 +176,16 @@
 <h3 id="8-更详细语法说明"><a href="#8-更详细语法说明" class="headerlink" title="8. 更详细语法说明"></a>8. 更详细语法说明</h3><p>想要查看更详细的语法说明，可以参考我们准备的 [Cmd Markdown 简明语法手册][1]，进阶用户可以参考 [Cmd Markdown 高阶语法手册][2] 了解更多高级功能。</p>
 <p>总而言之，不同于其它 <em>所见即所得</em> 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。<strong>Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。</strong> 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。</p>
 <hr>
-<p><script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script><textarea id="sequence-0-code" style="display: none">Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!</textarea><textarea id="sequence-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12,"theme":"simple"}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
 e=>end
 
 st->op->cond
 cond(yes)->e
-cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12,"theme":"simple"}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
+cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script><textarea id="sequence-0-code" style="display: none">Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!</textarea><textarea id="sequence-0-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script></p>
 ]]></content>
       
         <categories>
@@ -78,8 +205,8 @@ cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">
     
     <entry>
       <title><![CDATA[我的第一篇github博客]]></title>
-      <url>/2018/01/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87github%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"><![CDATA[<h3 id="h3-我的第一篇github博客"><a href="#h3-我的第一篇github博客" class="headerlink" title="h3 我的第一篇github博客"></a>h3 我的第一篇github博客</h3><p>正文</p>
+      <url>/2017/11/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87github%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<h3 id="我的第一篇github博客"><a href="#我的第一篇github博客" class="headerlink" title="我的第一篇github博客"></a>我的第一篇github博客</h3><p>哈哈，我的github博客正式开通了，欢迎常来逛逛。。。</p>
 ]]></content>
       
         <categories>
@@ -101,7 +228,7 @@ cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>/2018/01/23/hello-world/</url>
+      <url>/2017/10/23/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
